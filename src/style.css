@@ -1,0 +1,118 @@
+.container {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    margin-top: 10rem;
+    background: rgb(245, 244, 244);
+}
+
+.container_content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-self: center;
+}
+
+.button3{
+    display: flex;
+}
+
+.container,h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button{
+    height: 30px;
+    border-radius: 8px;
+    margin: 10px;align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(199, 196, 196);
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+input{
+    display: flex;
+    background: transparent;
+}
+
+.button1{
+    display: flex;
+}
+
+.button2{
+    display: flex;
+}
+
+  #table1 {
+    border-collapse: collapse;
+    width: 100%;
+    display: none; /* Initially hide the table */
+  }
+  
+  #table1 th, #table1 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #table1 th {
+    background-color: #f2f2f2;
+  }
+  
+  #createTableBtn {
+    display: block; /* Make it a block-level element */
+    text-align: center; /* Center the text */
+    margin-top: 10px; /* Add some margin for spacing */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+  }
+  
+  #createTableBtn:hover {
+    color: #666; /* Change text color on hover */
+  }
+  
+  /* Apply styles when the target is active */
+  .container:target #table1 {
+    display: table; /* Show the table when container is targeted */
+  }
+  
+  .container:target #createTableBtn {
+    display: none; /* Hide the button when container is targeted */
+  }
+
+  .file-upload {
+    display: flex;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #686565;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .file-upload label:hover {
+    background-color: #0056b3;
+  }
+
+
